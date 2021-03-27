@@ -14,6 +14,9 @@ npm i @specialdoom/docure-header
 </docure-header>
 ```
 
+### attributes
+- _logosource_ absolute source for logo image
+
 ### notes
  - anyhting inside the body of the component is going to be displayed as a header navigation item
  - use floating right to display a navigation item to the right 
