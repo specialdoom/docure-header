@@ -7,19 +7,19 @@ npm i @specialdoom/docure-header
 ### usage
 
 ```html
-<docure-header logosource="sourceForLogoImage">
-  <a href="home">Home</a>
-  <a href="about">About</a>
-  <a href="contact" style="float: left;">Profile</a>
+<docure-header>
+  <docure-header-item>
+    <a href="#">Nav item</a>
+  </docure-header-item>
 </docure-header>
 ```
 
-### attributes
-- _logosource_ absolute source for logo image
+#### docure-header-item
+ - _isright_ attribute to float the item to right
 
-### notes
- - anyhting inside the body of the component is going to be displayed as a header navigation item
- - use floating right to display a navigation item to the right 
+
+### upcoming
+ - logo for header
 
 ### example 
 
